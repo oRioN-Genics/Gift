@@ -1,9 +1,9 @@
 .gallery {
-    --d: 10s;
+    --d: 15s;
     /* duration */
     display: grid;
     place-items: center; /* Center both horizontally and vertically */
-    width: 220px;
+    width: 380px;
     margin-left: 220px;
   }
   
