@@ -1,11 +1,25 @@
 .gallery {
     --d: 15s;
-    /* duration */
     display: grid;
-    place-items: center; /* Center both horizontally and vertically */
+    place-items: center; 
     width: 380px;
     margin-left: 220px;
   }
+
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Big_heart.png');
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; 
+    opacity: 0.4;
+  }
+  
   
   .gallery > img {
     grid-area: 1/1;
@@ -100,7 +114,7 @@
     -webkit-background-size: 150px;
     -webkit-background-clip: text;
     -webkit-animation-name: shine;
-    -webkit-animation-duration: 3s; /* Adjust the duration as needed */
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     text-shadow: 0 0px 0px rgba(233, 85, 189, 0.419);
   
@@ -135,9 +149,8 @@
   
   .gallery {
     --d: 10s;
-    /* duration */
     display: grid;
-    place-items: center; /* Center both horizontally and vertically */
+    place-items: center; 
     width: 150px;
     margin-left: 60px;
   }
